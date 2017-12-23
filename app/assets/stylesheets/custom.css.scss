@@ -15,13 +15,13 @@
   text-decoration: none;
 }
 
-:center {
+.center {
   text-align: center;
 }
 
 .jumbotron {
   background-color: transparent;
-  background-image: url("jbn.jpg");
+  background-image: image-url('jbn.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-background-size: cover;
@@ -68,7 +68,7 @@ footer ul li {
 
 .navbar {
   background-color: transparent;
-  background-image: url("jbn.jpg");
+  background-image: image-url('jbn.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-background-size: cover;
