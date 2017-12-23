@@ -1,2 +1,91 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+:center {
+  text-align: center;
+}
+
+.jumbotron {
+  background-color: transparent;
+  background-image: url("jbn.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  height: 500px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.btn-xlarge {
+  font-size: 1.7em;
+  background-color: black;
+}
+
+.btn-primary {
+  align: center;
+}
+
+footer {
+  margin-top: 45px;
+  padding-top: 1px;
+  border-top: 1px solid #eaeaea;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: right;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
+
+.navbar {
+  background-color: transparent;
+  background-image: url("jbn.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+// footer{
+//   background-color: transparent;
+//   background-image: url("jbn.jpg");
+//   background-repeat: no-repeat;
+//   background-position: center center;
+//   -webkit-background-size: cover;
+//   -moz-background-size: cover;
+//   background-size: cover;
+// }
+
+.btn-primary{
+  align: center;
+}
