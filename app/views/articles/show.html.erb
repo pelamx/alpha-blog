@@ -1,11 +1,18 @@
 
-<%= link_to 'Edit', edit_article_path %>  |  <%= link_to 'Home', root_path %>
+<%= link_to 'Edit', edit_article_path %><br><br>
 
-<p>
-  Title: <br><%= @article.title %>
-</p>
-<p>
-  Description: <br><%= @article.description %>
-</p>
+<dl>
+  <dt>
+    <p>
+      <%= @article.title %> :
+    </p>
+  </dt>
+  <dd>
+    <p>
+      <%= @article.description %>
+    </p>
+  </dd>
+</dt>
+
 
 <%= link_to 'Back to articles', articles_path %>

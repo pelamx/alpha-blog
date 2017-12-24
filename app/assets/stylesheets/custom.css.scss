@@ -33,7 +33,7 @@
 .jumbotron h1 {
   color: #fff;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   letter-spacing: -1px;
   font-weight: bold;
 }
@@ -48,7 +48,7 @@
 }
 
 footer {
-  margin-top: 45px;
+  margin-top: 35px;
   padding-top: 1px;
   border-top: 1px solid #eaeaea;
 }
@@ -89,3 +89,8 @@ footer ul li {
 .btn-primary{
   align: center;
 }
+
+th, td {
+    padding: 4px;
+    text-align: left;
+  }
