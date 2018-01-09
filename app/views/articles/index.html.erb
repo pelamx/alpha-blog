@@ -9,13 +9,13 @@
   <tr>
     <td align="left"><%= article.title %></td>
     <td aling="center"><%= article.description %></td>
-    <td align="right"><%= link_to 'Edit', edit_article_path(article) %></td>
-    <td align="right"><%= link_to 'Show', article_path(article) %></td>
-    <td align="right"><%= link_to 'Delete', article_path(article), method: :delete, data: {confirm: "Are you sure?"}  %></td>
+    <td align="right"><%= link_to 'Edit', edit_article_path(article), class: "btn btn-xs btn-primary" %></td>
+    <td align="right"><%= link_to 'Show', article_path(article), class: "btn btn-xs btn-success" %></td>
+    <td align="right"><%= link_to 'Delete', article_path(article), class: "btn btn-xs btn-danger", method: :delete, data: {confirm: "Are you sure?"}  %></td>
   </tr>
   <% end %>
 </table>
 <br><br>
 <p>
-  <%= link_to "Create a new article", new_article_path %>
+  <%= link_to "Create a new article", new_article_path, class: "btn btn-xs btn-primary" %>
 </p>

@@ -82,6 +82,21 @@ footer ul li {
   left:10%;
 }
 
+.title-style {
+  border:1px solid #000; padding:8px;-moz-border-radius: 10px;-webkit-border-radius: 10px;border-radius: 10px;
+  background-color: transparent;
+  background-image: image-url('jbn.jpg');
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  width: auto;
+  color: white;
+}
+
+
 // footer{
 //   background-color: transparent;
 //   background-image: url("jbn.jpg");

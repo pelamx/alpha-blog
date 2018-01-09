@@ -10,8 +10,8 @@
     <%= f.text_area :description %>
   </p>
   <p>
-    <%= f.submit "Edit" %>
+    <%= f.submit "Edit", class: "btn btn-xl btn-info" %>
   </p>
 <% end %>
 <br>
-<%= link_to 'Back to articles', articles_path %>
+<%= link_to 'Back to articles', articles_path, class: "btn btn-xs btn-danger" %>
