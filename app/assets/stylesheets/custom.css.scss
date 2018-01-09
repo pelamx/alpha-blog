@@ -33,9 +33,10 @@
 .jumbotron h1 {
   color: #fff;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   letter-spacing: -1px;
   font-weight: bold;
+  width: auto;
 }
 
 .btn-xlarge {
@@ -74,6 +75,11 @@ footer ul li {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
+  width: auto;
+}
+.navbar-fixed-bottom{
+  width:1200px;
+  left:10%;
 }
 
 // footer{
@@ -86,11 +92,11 @@ footer ul li {
 //   background-size: cover;
 // }
 
-.btn-primary{
-  align: center;
-}
+// .btn-primary{
+//   align: center;
+// }
 
-th, td {
-    padding: 4px;
-    text-align: left;
-  }
+// th, td {
+//     padding: 4px;
+//     text-align: left;
+//   }
