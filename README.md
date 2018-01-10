@@ -1,1 +1,1 @@
-Practice rails app!
+alpha-blog-pelamx.herokuapp.com
