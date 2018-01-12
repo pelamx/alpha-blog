@@ -29,7 +29,13 @@
         </div>
         <hr>
         <div class="article-body">
-          <%= truncate(article.description, length: 100) %>
+          <%= truncate(article.description, length: 100) %> <br><br>
+          <div class="article-meta-details">
+            <small align='right'> Created by <%= article.user.username if article.user %>,
+                  <%= time_ago_in_words(article.created_at) %> ago,
+                  last updated: <%= time_ago_in_words(article.updated_at) %> ago
+            </small>
+          </div>
         </div>
         <hr>
         <div class="article-actions">
