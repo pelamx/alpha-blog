@@ -8,6 +8,8 @@ end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
+
+gem 'bcrypt', '~> 3.1.7'
 # Use Haml instead of HTML
 gem "haml-rails", "~> 1.0"
 # Use sqlite3 as the database for Active Record
