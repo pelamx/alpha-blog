@@ -1,25 +1,3 @@
-
-
-<!-- <table style="width:100%">
-  <tr>
-    <th align="left"> Title </th>
-    <th align="center"> Description </th>
-  </tr>
-  <% @articles.each do |article| %>
-  <tr>
-    <td align="left"><%= article.title %></td>
-    <td aling="center"><%= article.description %></td>
-    <td align="right"><%= link_to 'Edit', edit_article_path(article), class: "btn btn-xs btn-primary" %></td>
-    <td align="right"><%= link_to 'Show', article_path(article), class: "btn btn-xs btn-success" %></td>
-    <td align="right"><%= link_to 'Delete', article_path(article), class: "btn btn-xs btn-danger", method: :delete, data: {confirm: "Are you sure?"}  %></td>
-  </tr>
-  <% end %>
-</table>
-<br><br>
-<p>
-  <%= link_to "Create a new article", new_article_path, class: "btn btn-xs btn-primary" %>
-</p> -->
-
 <% @articles.each do |article| %>
   <div class="row">
     <div class="col-xs-8 col-xs-offset-2">
@@ -30,8 +8,8 @@
         <hr>
         <div class="article-body">
           <%= truncate(article.description, length: 100) %> <br><br>
-          <div class="article-meta-details">
-            <small align='right'> Created by <%= article.user.username if article.user %>,
+          <div class="article-meta-details text-info">
+            <small align='right'> Posted by <b><%= article.user.username %></b>
                   <%= time_ago_in_words(article.created_at) %> ago,
                   last updated: <%= time_ago_in_words(article.updated_at) %> ago
             </small>

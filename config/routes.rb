@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   root 'pages#home'
   get 'about', to: 'pages#about'
   delete 'Delete', to: 'articles#destroy'
-
+  get 'signup', to: 'users#new'
+  resources :users, except: [:new]
   resources :articles # to automatically generate article path for us
 end
